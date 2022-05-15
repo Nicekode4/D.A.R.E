@@ -1,2 +1,2 @@
 # D.A.R.E
-https://gf2dare.netlify.app/
+https://nicekode4.github.io/D.A.R.E/
