@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <LINK rel="stylesheet" href="./styles/main.css">
+    </LINK>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/notify.js" defer></script>
+</head>
+
+<body>
+    <input type="text" name="Notify title" id="notifyTitle">
+    <button onclick="NotifyMe()" type="button" id="testBtn">lel</button>
+    <button onclick="getDare()" id="getDare" type="button">Get dare</button>
+    <button type="button" onclick="allDares = []"></button>
+    <form action="">
+        <label for="">SFW</label>
+        <input onchange="SFW()" type="checkbox" name="Safe for Work" id="SFW">
+        <label for="">NSFW</label>
+        <input onchange="NSFW()" type="checkbox" name="Not Safe For Word" id="NSFW">
+        <label for="">Night out</label>
+        <input onchange="onChange()" type="checkbox" name="For a good night out" id="nightOut">
+       
+    </form>
+</body>
+
+</html>
